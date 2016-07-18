@@ -150,6 +150,8 @@
             break;
     }
     
+    [self.view setNeedsLayout];
+    [self.view layoutIfNeeded];
 }
 
 #pragma mark - Animations
